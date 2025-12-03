@@ -1,0 +1,29 @@
+/* Custom Font Imports */
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+        
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #fff; /* Clean background */
+            color: #333333;
+        }
+
+        /* Branding/Headline Font - Traditional/Elegant */
+        .brand-font {
+            font-family: 'Crimson Text', serif;
+        }
+
+        /* Product Card Hover Effect (Experiment 16) */
+        .product-card-effect {
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            border: 1px solid #f3f4f6; /* Light gray border */
+        }
+        .product-card-effect:hover {
+            transform: translateY(-5px); /* Lift up slightly */
+            border-color: #8bfad9; /* Lavender highlight */
+            box-shadow: 0 10px 20px rgba(167, 139, 250, 0.3); /* Subtle purple glow */
+        }
+
+        /* Button Active State (Experiment 16) */
+        .btn-active:active {
+            transform: scale(0.98);
+        }
